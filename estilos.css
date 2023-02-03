@@ -1,0 +1,51 @@
+body{/*Cuerpo*/
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;}
+
+
+nav{/*navegador*/
+    display: flex;
+    justify-content: flex-end;}
+    .e1{padding: 10px;}
+    .IconoDeNav{width: 20px;}
+
+
+.icocoCentral{
+    display: flex;
+    justify-content: center;
+    padding: 20px;}
+    .iconoHijo{width: 500px;}
+
+
+.Buscador{
+    display: flex;
+    justify-content: center;}
+    .BuscadorHijo{
+        width: 550px;
+        height: 30px;}
+    
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.i-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ii-footer{
+    display: flex;
+    gap: 20px;
+}
+.iii-footer{
+    display: flex;
+    gap: 20px;
+}
